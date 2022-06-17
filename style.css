@@ -6,22 +6,62 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+body {
+    font-size: 100%;
+    background:black;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.img-principal{
+    width: 99.9%;
+    height: 560px;
+}
+.img-index{
+    text-align: center;
+    background:white;
+}
 .cabecalho-img{
-
+    height: 200px;
+    border-radius: 50%;
+    border-radius: 50%;
 }
 .menu-navegacao{
-
+    display: flex;
+    gap: 32px;
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
 }
 .item-menu{
-
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 30px;
+    padding: 100px 30px;
+}
+.item-menu:hover{
+    background-color: rgba(236, 214, 196, 0.53);
 }
 .conteudo{
-
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
 }
 .conteudo-principal{
-
+    width: 80%;
+    height: auto;
+    padding: 30px;
 }
 .conteudo-principal-escrito{
+    font-family: 'Righteous';
+    font-weight: 400;
+    font-size: 30px;
+    color: #FFF2E7;
 
 }
 .conteudo-principal-titulo{
@@ -31,8 +71,13 @@
 
 }
 .rodape{
-
+    font-family: 'Righteous';
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFF2E7;
 }
 .contato{
-    
+    width: 80%;
+    height: auto;
+    padding: 30px;
 }
